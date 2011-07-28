@@ -1,0 +1,4 @@
+#nav a span{ margin-top: expression(this.parentNode.offsetHeight > this.offsetHeight ? ((this.parentNode.offsetHeight-this.offsetHeight)/2 + "px") : "0"); }
+#nav a,
+#nav a span,
+#nav a strong{display:block;}
