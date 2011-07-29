@@ -214,7 +214,7 @@ q:after{content:"";}
 	text-align:left;
 	letter-spacing:-2px;
 }
-.post .block p{margin:0 0 38px;}
+.post .block p{margin:0 0 12px;}
 .post .block img{margin:5px 17px 0 -11px;}
 .post .block img.align-right{margin:0 0 0 20px;}
 .block .btn-block{
@@ -273,12 +273,15 @@ q:after{content:"";}
 .sidebar-frame{
 	background:#fff;
 	color:#7c7d7d;
-	padding:3px 30px 63px;
+	padding:3px 30px 20px;
 }
 .sub-box{
 	font-size:12px;
 	line-height:15px;
-	margin:0 0 25px;
+	margin:0 0 40px;
+}
+#questions-box{
+	margin-bottom: 15px;
 }
 .sub-box h3{
 	margin:0;
@@ -426,7 +429,7 @@ q:after{content:"";}
 }
 .item-list{
 	list-style:none;
-	margin:0 0 25px 0;
+	margin:0 0 40px 0;
 	padding:0;
 	color:#5b5c5c;
 	font:bold 16px/21px Baskerville, "Times New Roman", Times, serif;
