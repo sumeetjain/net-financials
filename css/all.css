@@ -146,23 +146,36 @@ q:after{content:"";}
 	padding:1px 0 0;
 }
 .post{line-height:18px;}
-.visual{
+.visual, .textual{
 	width:100%;
 	position:relative;
 	margin:0 0 32px;
+	border-bottom:1px solid #96bed2;
+	padding-bottom:26px;
 }
 .visual img{display:block;}
-.visual .text-block{
-	position:absolute;
-	bottom:8px;
-	left:25px;
+.visual .text-block,
+.textual .text-block{
 	width:500px;
 	font-size:16px;
 	line-height:20px;
 }
+.visual .text-block{
+	position:absolute;
+	bottom:33px;
+	left:25px;
+}
 .post h2{
 	margin:0;
-	font:bold 60px/46px Baskerville, "Times New Roman", Times, serif;
+	font:bold 52px/46px Baskerville, "Times New Roman", Times, serif;
+	text-shadow: 2px 2px 3px #444;
+}
+.post .textual h2{
+	margin-bottom: 9px;
+}
+.post h2.no-desc{
+	position: relative;
+	top: -10px;
 }
 .post h3{
 	margin:0 0 7px;
@@ -182,8 +195,11 @@ q:after{content:"";}
 	padding:0 0 0 7px;
 }
 .post .block{
+	padding:1px 1px 32px 5px;
+}
+.post .secondBlock{
 	border-top:1px solid #96bed2;
-	padding:26px 1px 32px 5px;
+	padding-top:26px;
 }
 .post .block:after{
 	content:"";
@@ -262,7 +278,7 @@ q:after{content:"";}
 .sub-box{
 	font-size:12px;
 	line-height:15px;
-	margin:0 0 8px;
+	margin:0 0 25px;
 }
 .sub-box h3{
 	margin:0;
@@ -410,7 +426,7 @@ q:after{content:"";}
 }
 .item-list{
 	list-style:none;
-	margin:0;
+	margin:0 0 25px 0;
 	padding:0;
 	color:#5b5c5c;
 	font:bold 16px/21px Baskerville, "Times New Roman", Times, serif;
