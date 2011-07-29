@@ -30,3 +30,22 @@ Refresh the page to see changes.
 Refresh the page to see changes.
 
 ## Add Question/Answer Popups
+1. Find `item-list` in the HTML.
+2. Add a line to the `UL` element:
+
+```html
+<li>
+	QUESTION TEXT HERE
+	<div class="popup" style="display: none">
+		<div class="holder">
+			<div class="frame">
+				<h3>QUESTION TEXT AGAIN</h3>
+				<p>ANSWER TEXT</p>
+				<img src="images/small-logo.png" alt="" />
+			</div>
+		</div>
+	</div>
+</li>
+```
+
+Refresh the page to see changes.
