@@ -1,6 +1,22 @@
 // page init
 jQuery(function() {
 	initSlideshow();
+	
+	// question/answer popup
+	$('.item-list li').hover(function(){
+		$(this).children('.popup').fadeIn('fast');
+	}, function(){
+		$(this).children('.popup').fadeOut('fast');
+	});
+	
+	$('.item-list li').click(function(){
+		if ($(this).children('.popup').is(':visible')){
+			$(this).children('.popup').fadeOut('fast');
+		}
+		else{
+			$(this).children('.popup').fadeIn('fast');
+		}
+	});
 })
 
 // slideshow init

@@ -421,6 +421,7 @@ q:after{content:"";}
 	padding:13px 10px;
 	text-align:center;
 	background:#fff url(../images/bg-item-list.gif) repeat-x 0 100%;
+	position: relative;
 }
 #footer{
 	background:#ee1d25 url(../images/bg-footer.gif) repeat-x;
@@ -446,6 +447,11 @@ q:after{content:"";}
 	width:331px;
 	background:url(../images/bg-popup-t.png) no-repeat;
 	padding:26px 0 0;
+	text-align: left;
+	font:13px "Gill Sans", Arial, Helvetica, sans-serif;
+	position: absolute;
+	bottom: 10px;
+	left: -50px;
 }
 .popup .holder{
 	background:url(../images/bg-popup-b.png) no-repeat 0 100%;
