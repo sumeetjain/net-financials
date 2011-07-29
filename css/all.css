@@ -342,7 +342,7 @@ q:after{content:"";}
 .blockquote blockquote q{
 	display:block;
 	font-style:italic;
-	margin:0 0 18px;
+	margin:0 0 4px;
 }
 .blockquote blockquote cite{
 	display:block;
