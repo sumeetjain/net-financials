@@ -286,7 +286,9 @@ q{quotes: none;}q:before{content:"";}q:after{content:"";}
 	top:0;
 	width:230px;
 	height:117px;
+	z-index:1;
 }
+.slide-show li.active {z-index:2;}
 .slide-show li img,
 .slide-show2 li img{display:block;}
 .slide-show2{
@@ -300,7 +302,17 @@ q{quotes: none;}q:before{content:"";}q:after{content:"";}
 .slide-show2 ul{
 	list-style:none;	margin:0;	padding:0;
 	color:#fff;
+	position:relative;
 }
+.slide-show2 li {
+	position:absolute;
+	left:0;
+	top:0;
+	width:239px;
+	z-index:1;
+	min-height:127px;
+}
+.slide-show2 li.active {z-index:2;}
 .blockquote{
 	padding:14px 5px 10px 16px;
 	font:bold 15px/17px Baskerville, "Times New Roman", Times, serif;
@@ -359,10 +371,10 @@ q{quotes: none;}q:before{content:"";}q:after{content:"";}
 	background:url(../images/btn-mail.png) no-repeat;
 	width:88px;
 	height:15px;
-	padding:2px 0 4px;
+	padding:3px 0 4px;
 	margin:7px 0 0;
 	text-align:center;
-	font:bold 11px/15px Baskerville, "Times New Roman", Times, serif;
+	font:bold 10px/14px Baskerville, "Times New Roman", Times, serif;
 }
 .item-list{
 	list-style:none;	margin:0;	padding:0;
@@ -396,3 +408,29 @@ q{quotes: none;}q:before{content:"";}q:after{content:"";}
 	padding:0 17px 0 18px;
 	margin:0 1px 0 -1px;
 }
+.popup{
+	width:331px;
+	background:url(../images/bg-popup-t.png) no-repeat;
+	padding:26px 0 0;
+}
+.popup .holder{
+	background:url(../images/bg-popup-b.png) no-repeat 0 100%;
+	width: 331px;
+	padding:0 0 34px;
+}
+.popup .frame{
+	background:url(../images/bg-popup-c.png) repeat-y;
+	width:256px;
+	padding:6px 40px 0 35px;
+	color:#7c7d7d;
+	font-size:16px;
+	line-height:18px;
+	overflow:hidden;
+	min-height:264px;
+}
+.popup h3{
+	margin:0 0 18px;
+	color:#149ad7;
+	font:bold 21px/21px Baskerville, "Times New Roman", Times, serif;
+}
+.popup p{margin:0 0 10px;}
