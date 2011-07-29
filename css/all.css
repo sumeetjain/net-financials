@@ -4,14 +4,13 @@ body{
 	margin:0;
 	background:#fff url(../images/bg-page.jpg) repeat-x;
 	color:#fff;
-	font:13px "Gill Sans", Arial, Helvetica, sans-serif;
+	font:14px "Gill Sans", Arial, Helvetica, sans-serif;
 }
 img{border-style:none;}
 a{
 	text-decoration:none;
 	color:#fff;
 }
-a:hover{text-decoration:underline;}
 input,
 textarea,
 select{
@@ -54,6 +53,9 @@ q:after{content:"";}
 	line-height:15px;
 	padding:23px 10px 9px;
 	min-height:15px;
+}
+.top-bar a:hover{
+/*	color: #333;*/
 }
 .top-bar ul{
 	list-style:none;
@@ -143,7 +145,7 @@ q:after{content:"";}
 	width:545px;
 	padding:1px 0 0;
 }
-.post{line-height:20px;}
+.post{line-height:18px;}
 .visual{
 	width:100%;
 	position:relative;
@@ -266,7 +268,7 @@ q:after{content:"";}
 }
 .sub-box h3{
 	margin:0;
-	font:bold 30px/34px Baskerville, "Times New Roman", Times, serif;
+	font:bold 26px/34px Baskerville, "Times New Roman", Times, serif;
 	color:#5b5c5c;
 	letter-spacing:-1px;
 }
@@ -461,12 +463,18 @@ q:after{content:"";}
 .popup .frame{
 	background:url(../images/bg-popup-c.png) repeat-y;
 	width:256px;
-	padding:6px 40px 0 35px;
+	padding:6px 40px 60px 35px;
 	color:#7c7d7d;
 	font-size:16px;
 	line-height:18px;
 	overflow:hidden;
 	min-height:164px;
+	position: relative;
+}
+.popup .frame img{
+	position: absolute;
+	bottom: 0;
+	right: 35px;
 }
 .popup h3{
 	margin:0 0 18px;
