@@ -273,14 +273,17 @@ q:after{content:"";}
 .sidebar-frame{
 	background:#fff;
 	color:#7c7d7d;
-	padding:3px 30px 20px;
+	padding:3px 30px 1px;
 }
 .sub-box{
 	font-size:12px;
 	line-height:15px;
-	margin:0 0 40px;
+	margin:0 0 30px;
 }
 #questions-box{
+	margin-bottom: 15px;
+}
+#contact-box{
 	margin-bottom: 15px;
 }
 .sub-box h3{
@@ -372,7 +375,7 @@ q:after{content:"";}
 	font-size: 11px;
 }
 .sub-box dl.contact{
-	margin:0 0 20px;
+	margin:0 0;
 	overflow:hidden;
 }
 .contact dt{
@@ -385,7 +388,7 @@ q:after{content:"";}
 .contact dd a{color:#7c7d7d;}
 .social{
 	list-style:none;
-	margin:0 -25px 21px 0;
+	margin:0 -25px 5px 0;
 	padding:0;
 	width:264px;
 	overflow:hidden;
@@ -429,7 +432,7 @@ q:after{content:"";}
 }
 .item-list{
 	list-style:none;
-	margin:0 0 40px 0;
+	margin:0 0 30px 0;
 	padding:0;
 	color:#5b5c5c;
 	font:bold 16px/21px Baskerville, "Times New Roman", Times, serif;
