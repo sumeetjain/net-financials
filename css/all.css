@@ -55,7 +55,7 @@ q:after{content:"";}
 	min-height:15px;
 }
 .top-bar a:hover{
-/*	color: #333;*/
+	color: #096080;
 }
 .top-bar ul{
 	list-style:none;
@@ -192,7 +192,7 @@ q:after{content:"";}
 	clear:both;
 }
 .post .block h2{
-	font-size:58px;
+	font-size:48px;
 	line-height:50px;
 	margin:0 0 7px -3px;
 	position:relative;
@@ -309,10 +309,9 @@ q:after{content:"";}
 	width:230px;
 	height:117px;
 	z-index:1;
+	text-align: center;
 }
 .slide-show li.active {z-index:2;}
-.slide-show li img,
-.slide-show2 li img{display:block;}
 .slide-show2{
 	background:url(../images/bg-slide-show2.gif) no-repeat 0 15px;
 	width:239px;
